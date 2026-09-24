@@ -30,7 +30,7 @@
 
 ## Fase 0 — Fundaciones
 
-### [ ] F0-T01 · Monorepo
+### [x] F0-T01 · Monorepo
 - **Objetivo:** estructura base del proyecto.
 - **Hacer:**
   - pnpm workspaces con `apps/web`, `apps/api`, `packages/db` y `packages/shared`
