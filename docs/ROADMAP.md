@@ -39,7 +39,7 @@
   - scripts raíz `dev`, `build`, `lint`, `typecheck` y `test`
 - **Aceptación:** `pnpm install && pnpm typecheck` funciona en limpio.
 
-### [ ] F0-T02 · Supabase + Prisma
+### [x] F0-T02 · Supabase + Prisma
 - **Depende de:** T01
 - **Hacer:**
   - Supabase local con la Supabase CLI (`supabase init`, `supabase start`).

@@ -20,9 +20,10 @@ pnpm dev              # web + api
 pnpm test             # todos los tests
 pnpm lint / typecheck
 pnpm db:migrate       # prisma migrate dev
+pnpm db:studio        # prisma studio
 pnpm db:seed
 pnpm db:check-rls     # falla si alguna tabla de public no tiene RLS
-supabase start/stop   # Supabase local
+pnpm supabase start/stop   # Supabase local (CLI como devDependency)
 ```
 
 ## Reglas NO negociables

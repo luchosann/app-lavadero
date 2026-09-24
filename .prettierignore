@@ -6,3 +6,5 @@ coverage
 
 # Docs escritos a mano
 *.md
+packages/db/src/generated
+supabase/.temp

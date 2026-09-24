@@ -1,0 +1,11 @@
+// Los modelos del negocio se agregan a partir de F1-T01.
+// Conexión: ver prisma.config.ts (CLI) y src/client.ts (runtime).
+
+generator client {
+  provider = "prisma-client"
+  output   = "../src/generated/prisma"
+}
+
+datasource db {
+  provider = "postgresql"
+}
